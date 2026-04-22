@@ -55,25 +55,29 @@ Verify CSV Report Output<br/>
 Remove User from Domain Admins Group<br/>
 <i>Revoke unnecessary administrative privileges to enforce least privilege.</i><br/>
 
-<img src="images/step5-remove-user-before.png" width="100%"/>
+<img src="images/step5-remove-user-01.png" width="100%"/>
 <br/>
-<img src="images/step5-remove-user-after.png" width="100%"/>
+<img src="images/step5-remove-user-02.png" width="100%"/>
 <br/><br/>
 
 Create PowerShell Script to Audit High-Privilege Groups<br/>
 <i>Develop a script to audit multiple high-risk Active Directory groups.</i><br/>
 
-<img src="images/step6-script-setup.png" width="100%"/>
+<img src="images/step6-script-01.png" width="100%"/>
 <br/>
-<img src="images/step6-full-script.png" width="100%"/>
+<img src="images/step6-script-02.png" width="100%"/>
+<br/>
+<img src="images/step6-script-03.png" width="100%"/>
 <br/><br/>
 
 Execute Script and Review Output<br/>
 <i>Run the audit script to identify members of high-privilege groups.</i><br/>
 
-<img src="images/step7-run-script.png" width="100%"/>
+<img src="images/step7-test-01.png" width="100%"/>
 <br/>
-<img src="images/step7-script-output.png" width="100%"/>
+<img src="images/step7-test-02.png" width="100%"/>
+<br/>
+<img src="images/step7-test-03.png" width="100%"/>
 
 <br/><br/>
 
