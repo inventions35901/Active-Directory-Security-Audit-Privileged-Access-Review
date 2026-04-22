@@ -31,53 +31,53 @@ In this lab, I used PowerShell and Active Directory tools to audit Domain Admins
 Open Active Directory Users and Computers<br/>
 <i>Access the domain environment to manage and review user accounts.</i><br/>
 
-<img src="images/step1-open-aduc.png" width="100%"/>
+<img src="step1-open-aduc.png" width="100%"/>
 <br/><br/>
 
 Identify Domain Admins Using PowerShell<br/>
 <i>Retrieve members of the Domain Admins group to identify privileged users.</i><br/>
 
-<img src="images/step2-domain-admins-powershell.png" width="100%"/>
+<img src="step2-domain-admins-powershell.png" width="100%"/>
 <br/><br/>
 
 Export Domain Admins to CSV Report<br/>
 <i>Generate a report of privileged users for auditing and compliance purposes.</i><br/>
 
-<img src="images/step3-export-domain-admins-csv.png" width="100%"/>
+<img src="step3-export-domain-admins-csv.png" width="100%"/>
 <br/><br/>
 
 Verify CSV Report Output<br/>
 <i>Confirm the report was successfully generated and stored.</i><br/>
 
-<img src="images/step4-verify-csv-file.png" width="100%"/>
+<img src="step4-verify-csv-file.png" width="100%"/>
 <br/><br/>
 
 Remove User from Domain Admins Group<br/>
 <i>Revoke unnecessary administrative privileges to enforce least privilege.</i><br/>
 
-<img src="images/step5-remove-user-01.png" width="100%"/>
+<img src="step5-remove-user-01.png" width="100%"/>
 <br/>
-<img src="images/step5-remove-user-02.png" width="100%"/>
+<img src="step5-remove-user-02.png" width="100%"/>
 <br/><br/>
 
 Create PowerShell Script to Audit High-Privilege Groups<br/>
 <i>Develop a script to audit multiple high-risk Active Directory groups.</i><br/>
 
-<img src="images/step6-script-01.png" width="100%"/>
+<img src="step6-script-01.png" width="100%"/>
 <br/>
-<img src="images/step6-script-02.png" width="100%"/>
+<img src="step6-script-02.png" width="100%"/>
 <br/>
-<img src="images/step6-script-03.png" width="100%"/>
+<img src="step6-script-03.png" width="100%"/>
 <br/><br/>
 
 Execute Script and Review Output<br/>
 <i>Run the audit script to identify members of high-privilege groups.</i><br/>
 
-<img src="images/step7-test-01.png" width="100%"/>
+<img src="step7-script-test-01.png" width="100%"/>
 <br/>
-<img src="images/step7-test-02.png" width="100%"/>
+<img src="step7-script-test-02.png" width="100%"/>
 <br/>
-<img src="images/step7-test-03.png" width="100%"/>
+<img src="step7-script-test-03.png" width="100%"/>
 
 <br/><br/>
 
